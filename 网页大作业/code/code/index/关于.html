@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>关于</title>
+	<link rel="stylesheet" href="../css/demo.css">
+	<link rel="stylesheet" href="../css/vedio.css" />
+	<script src="../js/Vidage.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/Vidage.css">
+</head>
+<body>
+        <div class="Vidage">
+		    <div class="Vidage__image"></div>
+		    <video id="VidageVideo" class="Vidage__video" preload="metadata" loop="" autoplay="" muted="">
+		        <source src="../video/bg.mp4" type="video/mp4">
+		    </video>
+		</div>
+        <audio autoplay="" loop="">
+		<source src="../video/bg.mp4" type="audio/mpeg">
+		</audio> 
+
+
+        <div class="Container Intro">
+            <h1 class="Title">
+                关于网站的制作
+            </h1>
+            <div class="htmleaf-links">
+			<a class="htmleaf-icon icon-htmleaf-home-outline" href="index.html" title="主页"  style="color: #FFFFFFFF"><span> 主页</span></a>
+			<a class="htmleaf-icon icon-htmleaf-arrow-forward-outline" href="javascript:history.go(-1)" title="返回"  style="color: #FFFFFFFF"><span> 返回</span></a>
+		</div>
+
+            <p class="Description">
+                About website production Xu &amp; Zhang &amp; Luo
+            </p>
+            <div class="related">
+		    <h3>这个网站(南昌地铁酷站)是由南昌大学软件学院的Html5班级 徐梓涵、张如意、罗振纲完成，<br>欢迎联系我们！</h3>
+		    <a href="http://img01.sogoucdn.com/app/a/100520146/1b5755a19fffdeeca47d2620c91ebd6f">
+			  <img src="../images/关于1.png" width="300" alt="扫描联系我们"/></img>
+			</a>
+			<a href="http://img02.sogoucdn.com/app/a/100520146/4325e6f20a202554102f14ad508b5f88">
+			  <img src="../images/关于2.png" width="300" alt="资助我们"/>
+			</a>
+	</body>
+	<script>
+		new Vidage('#VidageVideo');
+	</script>
+	</html>
